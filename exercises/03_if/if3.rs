@@ -2,17 +2,18 @@
 //
 // Execute `rustlings hint if3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+//un if ne doit pas avoir 2 types differents, j'ai donc du remplacer le "Unknow" par un chiffre pour qu'il y ai un seul type.
 
-pub fn animal_habitat(animal: &str) -> &'static str {
+
+pub fn animal_habitat(animal: &str) -> & str {
     let identifier = if animal == "crab" {
         1
     } else if animal == "gopher" {
-        2.0
+        2
     } else if animal == "snake" {
         3
     } else {
-        "Unknown"
+        4
     };
 
     // DO NOT CHANGE THIS STATEMENT BELOW
@@ -22,7 +23,7 @@ pub fn animal_habitat(animal: &str) -> &'static str {
         "Burrow"
     } else if identifier == 3 {
         "Desert"
-    } else {
+    } else{
         "Unknown"
     };
 

@@ -3,7 +3,8 @@
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+//Au vu de l'erreur, et au vu de la fonction il suffisait d'enlever le point-virgule apres le "num" pour return dans la fonction
+
 
 fn main() {
     let answer = square(3);
@@ -11,5 +12,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
